@@ -9,11 +9,11 @@ def home():
 
 @app.route('/app')
 def blog():
-    return "Hello, from App!v2"
+    return "Hello, from App!v3"
 
 @app.route('/item')
 def item():
-    return "hoba ba2ena fe el itemv2"
+    return "hoba ba2ena fe el itemv3"
 
 if __name__ == '__main__':
     app.run(threaded=True,host='0.0.0.0',port=5000)
